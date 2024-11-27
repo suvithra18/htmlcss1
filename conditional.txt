@@ -1,0 +1,181 @@
+conditional statements
+
+if
+if else
+else if
+nested if
+switch
+
+if
+block of js
+condition ->true
+
+syntax
+if(condition)
+{
+//statements
+}
+
+
+else
+
+block of code 
+condition is false
+
+syntax
+
+if(condition)
+{
+}
+else
+{
+}
+
+
+
+
+else if statement
+
+syntax
+
+if(condition)
+{
+}
+else if(condition)
+{
+
+}
+else{
+}
+
+
+
+switch Case
+
+
+different actions based on different conditions
+
+
+syntax
+
+switch(expression)
+{
+case 0:
+ break;
+case 1:
+break;
+default:
+}
+
+
+Date 
+
+ISO  2024-08-20
+short  20/08/2024
+long date  Aug 20 2024 or 20 Aug 2024
+
+Date Input - Parsing Dates
+
+Date.parse() returns the number of milliseconds between the date 
+and January 1 1970
+
+Get Date Methods
+
+getFullYear()
+
+const d = new Date("2021-03-25")
+document.getElementById("demo").innerHTML = d.getFullYear();
+
+
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getMonth()+1 ;
+
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getDate();
+
+
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getHours();
+
+
+const d = new Date("2024-08-19");
+document.getElementById("demo").innerHTML = d.getDay();
+
+
+SET Methods
+
+const d = new Date();
+d.setMonth(1);//starts from 0
+
+const d = new Date();
+d.setDate(15);
+
+const d = new Date();
+d.setHours(22);
+
+const d = new Date();
+d.setMinutes(30);
+
+const d = new Date();
+d.setSeconds(30);
+
+LOOPING
+
+execute a block of code a number of times
+
+while
+do-while
+for
+ for/in
+ for/of
+
+
+while loop
+
+ block of code as long as a specified condition is true
+Entry control loop/pre test condition
+
+Syntax
+while (condition) {
+  // code block to be executed
+}
+
+
+Do While Loop
+
+ before checking if the condition is true, 
+then it will repeat the loop as long as the condition is true
+exit control loop
+post test condition
+
+Syntax
+do {
+  // code block to be executed
+}
+while (condition);
+
+
+For
+
+for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+}
+
+
+For In Loop
+
+loops through the properties of an Object
+
+Syntax
+for (key in object) {
+  // code block to be executed
+}
+
+
+For Of Loop
+values of an iterable object
+
+Syntax
+for (variable of iterable) {
+  
+}
